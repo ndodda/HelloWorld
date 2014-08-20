@@ -7,7 +7,7 @@ Description: SoapUI tests execution build xml file
 <property name="soapui.files.dir" value="${basedir}"/>
 <property name="results.dir" value="${basedir}\Results"/>
 <property name="soapui.xml" value="SOAPConvertVolume-soapui-project.xml"/>
-<property name="soapui.tool" value="${basedir}\testrunner.bat"/>
+<property name="soapui.tool" value="C:\\Program Files\\SmartBear\\SoapUI-Pro-5.1.1\\bin\\testrunner.bat"/>
 
 <target name="usage" description="usage">
 	<echo>
